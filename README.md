@@ -58,6 +58,33 @@ Here is some sample data for a few countries:
   - Continent: Australia
   - Language: English
 
+## Output
+
+### Table: Countries
+| Country Name  | Capital    | Main Cities                   | Population   | Continent      | Language   |
+|---------------|------------|-------------------------------|--------------|----------------|------------|
+| United States | Washington | New York, Los Angeles, Chicago | 332,000,000  | North America  | English    |
+| France        | Paris      | Paris, Marseille, Lyon         | 67,000,000   | Europe         | French     |
+| Brazil        | Brasília   | São Paulo, Rio de Janeiro      | 213,000,000  | South America  | Portuguese |
+| China         | Beijing    | Shanghai, Beijing, Guangzhou   | 1,441,000,000| Asia           | Chinese    |
+| Australia     | Canberra   | Sydney, Melbourne, Brisbane    | 25,400,000   | Australia      | English    |
+
+### After Updating Population for United States
+| Country Name  | Capital    | Main Cities                   | Population   | Continent      | Language   |
+|---------------|------------|-------------------------------|--------------|----------------|------------|
+| United States | Washington | New York, Los Angeles, Chicago | 350,000,000  | North America  | English    |
+| France        | Paris      | Paris, Marseille, Lyon         | 67,000,000   | Europe         | French     |
+| Brazil        | Brasília   | São Paulo, Rio de Janeiro      | 213,000,000  | South America  | Portuguese |
+| China         | Beijing    | Shanghai, Beijing, Guangzhou   | 1,441,000,000| Asia           | Chinese    |
+
+### After Deleting Australia from the Database
+| Country Name  | Capital    | Main Cities                   | Population   | Continent      | Language   |
+|---------------|------------|-------------------------------|--------------|----------------|------------|
+| United States | Washington | New York, Los Angeles, Chicago | 350,000,000  | North America  | English    |
+| France        | Paris      | Paris, Marseille, Lyon         | 67,000,000   | Europe         | French     |
+| Brazil        | Brasília   | São Paulo, Rio de Janeiro      | 213,000,000  | South America  | Portuguese |
+| China         | Beijing    | Shanghai, Beijing, Guangzhou   | 1,441,000,000| Asia           | Chinese    |
+
 ## Notes
 - This repository demonstrates my learning of a simple SQLite database for managing country information.
 - The database can be expanded with more countries and additional details as needed.
